@@ -91,7 +91,7 @@ font-family:"Open_Sans_L";
 .ca-sub{
     text-align:center;
     font-size: 12px;
-    color: #FFC000;
+    color: #0088cc;
     position: absolute;
 font-family:"Open_Sans_R";
     bottom: 0px;
@@ -131,7 +131,7 @@ font-family:"Open_Sans_R";
     -ms-animation: smallToBig 300ms ease;
 }
 .ca-menu li:hover .ca-sub{
-    color: #FFC000;
+    color: #0088cc;
     -webkit-animation: moveFromBottom 500ms ease;
     -moz-animation: moveFromBottom 500ms ease;
     -ms-animation: moveFromBottom 500ms ease;

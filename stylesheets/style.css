@@ -320,18 +320,18 @@ padding-bottom: 10px;
 }
 
 
-#about{
+#researcher{
 	background: #fff url('../images/slants/yellow.png') center top no-repeat;
 }
-#about-mid{
+#researcher-mid{
 	padding-top: 50px;
 	padding-bottom: 0px;
 	background: rgba(255,192,0,0.8);
 }
-#about-end{
+#researcher-end{
 	background: #fff;
 }
-#about .inner{
+#researcher .inner{
 	background: url('../images/badges/01.png') no-repeat right top;
 }
 
@@ -1516,7 +1516,7 @@ line-height:16px
 		margin-bottom: 20px;
 	}
 	.news-img{
-		background: #00aeef;
+		background: none;
 		padding-top: 30px !important;
 	}
 }

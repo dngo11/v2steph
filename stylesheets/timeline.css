@@ -17,7 +17,7 @@
     position: relative;
 }
 .cbp_tmtimeline:before {
-    background: none repeat scroll 0 0 #FFC000;
+    background: none repeat scroll 0 0 #0088cc;
     bottom: 0;
     content: "";
     left: 20%;
@@ -41,7 +41,7 @@
     font-size: 2.4em;
 }
 .cbp_tmtimeline > li:nth-child(2n+1) .cbp_tmtime span:last-child {
-    color: #FFC000;
+    color: #0088cc;
 }
 .cbp_tmtimeline > li .cbp_tmlabel {
     background: #111111 url('../images/dark-bg.png') repeat;
@@ -56,7 +56,7 @@
     line-height: 1.6em;
 }
 .cbp_tmtimeline > li:nth-child(2n+1) .cbp_tmlabel {
-    background: none repeat scroll 0 0 #FFC000;
+    background: none repeat scroll 0 0 #0088cc;
 }
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -81,12 +81,12 @@
     width: 0;
 }
 .cbp_tmtimeline > li:nth-child(2n+1) .cbp_tmlabel:after {
-    border-right-color: #FFC000;
+    border-right-color: #0088cc;
 }
 .cbp_tmtimeline > li .cbp_tmicon {
     background: #111111 url('../images/dark-bg.png') repeat;
     border-radius: 50% 50% 50% 50%;
-    box-shadow: 0 0 0 8px #FFC000;
+    box-shadow: 0 0 0 8px #0088cc;
     color: #FFFFFF;
     font-family: 'ecoico';
     font-size: 3.8em;
