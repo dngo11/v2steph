@@ -29,6 +29,41 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
 /* CONTENTS: */
 /* ===================================*/
 
+/*CUSTOM*/
+.height325 {
+	height: 325px;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.{
+	padding-bottom: 26px;
+	text-align: center;
+	margin-bottom: 30px;
+	background: url('../images/slants/white-v-inv.png') no-repeat center bottom;
+}
+
+.test > span{
+	font-size: 24px;
+	line-height: 31px;
+	color: #000;
+	font-weight: normal;
+	font-family:"Open_Sans_L";
+	padding: 10px;
+	background: #fff;
+	/*border-top: double 8px #00aeef;*/
+}
+
 /* 01 - LAYOUT INITIALIZATION */
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -280,7 +315,6 @@ padding-bottom: 10px;
 	font-family:"Open_Sans_L";
 	padding: 10px;
 	background: #fff;
-	border-top: double 8px #00aeef;
 }
 .promo-text-inv-yellow{
 	padding-bottom: 26px;
@@ -335,31 +369,68 @@ padding-bottom: 10px;
 	background: url('../images/badges/01.png') no-repeat right top;
 }
 
+#strategist{
+	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+}
+#strategist-mid{
+	padding-top: 50px;
+	padding-bottom: 0px;
+	background: rgba(255,192,0,0.8);
+}
+#strategist-end{
+	background: #fff;
+}
+#strategist .inner{
+	background: url('../images/badges/01.png') no-repeat right top;
+}
 
-#people{
+#dschool{
+	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+}
+#dschool-mid{
+	padding-top: 50px;
+	padding-bottom: 0px;
+	background: rgba(255,192,0,0.8);
+}
+#dschool-end{
+	background: #fff;
+}
+#dschool .inner{
+	background: url('../images/badges/01.png') no-repeat right top;
+}
+
+
+#conference{
+	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+}
+#conference-mid{
+	padding-top: 50px;
+	padding-bottom: 0px;
+	background: rgba(255,192,0,0.8);
+}
+#conference-end{
+	background: #fff;
+}
+#conference .inner{
+	background: url('../images/badges/01.png') no-repeat right top;
+}
+
+/*#people{
 	background: #00aeef url('../images/slants/white.png') center top no-repeat;
 }
 #people .inner{
 	background: url('../images/badges/02.png') no-repeat left top;
 }
 
-#dates{
-	background: #fff url('../images/slants/yellow.png') center top no-repeat;
-}
-#dates .inner{
-	background: url('../images/badges/11.png')  no-repeat right top;
-}
-
-
 #resources{
 	background: #00aeef url('../images/slants/white.png') center top no-repeat;
 }
 #resources .inner{
 	background: url('../images/badges/04.png') no-repeat left top;
-}
+}*/
 
 #contact{
-	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+	background: #00aeef url('../images/slants/yellow.png') center top no-repeat;
     padding-bottom: 0 !important;
 }
 #contact .inner{
