@@ -273,7 +273,7 @@ padding-bottom: 10px;
 	padding-top: 26px;
 	text-align: center;
 	margin-bottom: 60px;
-	background: url('../images/slants/yellow-v.png') no-repeat center top;
+	background: url('../images/slants/blue-v.png') no-repeat center top;
 }
 .promo-text > span{
 	font-size: 24px;
@@ -355,12 +355,12 @@ padding-bottom: 10px;
 
 
 #researcher{
-	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+	background: #fff url('../images/slants/blue.png') center top no-repeat;
 }
 #researcher-mid{
 	padding-top: 50px;
 	padding-bottom: 0px;
-	background: rgba(255,192,0,0.8);
+	background: rgba(0,174,239,0.8);
 }
 #researcher-end{
 	background: #fff;
@@ -370,12 +370,12 @@ padding-bottom: 10px;
 }
 
 #strategist{
-	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+	background: #fff url('../images/slants/blue.png') center top no-repeat;
 }
 #strategist-mid{
 	padding-top: 50px;
 	padding-bottom: 0px;
-	background: rgba(255,192,0,0.8);
+	background: rgba(0,174,239,0.8);
 }
 #strategist-end{
 	background: #fff;
@@ -385,12 +385,12 @@ padding-bottom: 10px;
 }
 
 #dschool{
-	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+	background: #fff url('../images/slants/blue.png') center top no-repeat;
 }
 #dschool-mid{
 	padding-top: 50px;
 	padding-bottom: 0px;
-	background: rgba(255,192,0,0.8);
+	background: rgba(0,174,239,0.8);
 }
 #dschool-end{
 	background: #fff;
@@ -401,12 +401,12 @@ padding-bottom: 10px;
 
 
 #conference{
-	background: #fff url('../images/slants/yellow.png') center top no-repeat;
+	background: #fff url('../images/slants/blue.png') center top no-repeat;
 }
 #conference-mid{
 	padding-top: 50px;
 	padding-bottom: 0px;
-	background: rgba(255,192,0,0.8);
+	background: rgba(0,174,239,0.8);
 }
 #conference-end{
 	background: #fff;
@@ -430,7 +430,7 @@ padding-bottom: 10px;
 }*/
 
 #contact{
-	background: #00aeef url('../images/slants/yellow.png') center top no-repeat;
+	background: #00aeef url('../images/slants/blue.png') center top no-repeat;
     padding-bottom: 0 !important;
 }
 #contact .inner{
