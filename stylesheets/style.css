@@ -30,6 +30,8 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
 /* ===================================*/
 
 
+
+
 /*TILT*/
 .tilt {
   -webkit-transition: all 0.8s ease;
@@ -48,6 +50,11 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
 }
 
 /*CUSTOM*/
+.blue {
+	background: #0088cc;
+}
+
+
 .logo {
 	max-height: 300px;
 	max-width: 300px;

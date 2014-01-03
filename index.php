@@ -1,4 +1,17 @@
+<html>
+<head>
+	<title>Steph Habif | Portfolio</title>
+	<link href="stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+
+</body>
+</html>
+
+
 <?php
+include_once("login.html");
+
 $password = "david"; //Change to whatever you want your password to be
 
 if(isset($_POST['submit'])){
@@ -10,11 +23,12 @@ if(isset($_POST['submit'])){
         }
 } else { //IF THE FORM WAS NOT SUBMITTED
 //SHOW FORM
-	?><form method="post">
+	?><form class="blue" method="post">
 		Password: <input type="password" name="password" />
 		<input type='submit' name='submit' />
 	</form><?php
 }
 
-
 ?>
+
+
