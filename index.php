@@ -25,10 +25,6 @@
 
 </head>
 <body>
-
-</body>
-</html>
-
 <?php
 include_once("login.html");
 
@@ -52,6 +48,10 @@ if(isset($_POST['submit'])){
 }
 
 ?>
+
+</body>
+</html>
+
 
 
 
