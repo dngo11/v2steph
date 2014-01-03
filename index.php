@@ -1,14 +1,3 @@
-<html>
-<head>
-	<title>Steph Habif | Portfolio</title>
-	<link href="stylesheets/style.css" rel="stylesheet">
-</head>
-<body>
-
-</body>
-</html>
-
-
 <?php
 include_once("login.html");
 
