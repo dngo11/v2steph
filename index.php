@@ -1,4 +1,4 @@
-<<html>
+<html>
 <head>
 	<title>Steph Habif | Portfolio</title>
 
@@ -26,8 +26,6 @@
 </head>
 <body>
 <?php
-include_once("login.html");
-
 $password = "david"; //Change to whatever you want your password to be
 
 if(isset($_POST['submit'])){
