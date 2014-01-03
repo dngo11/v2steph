@@ -33,12 +33,10 @@ if(isset($_POST['submit'])){
 } else { //IF THE FORM WAS NOT SUBMITTED
 //SHOW FORM
 	?>
-	<div class="box">
 		<h2 class="text">To access Steph Habif's portfolio, please enter the password.</h2>
 		<form class="blue" method="post">
 		<input type="password" name="password" placeholder="password" /></br>
 		<input type='submit' name='submit' />
-	</div>
 		</form><?php
 	
 }
