@@ -1,3 +1,13 @@
+<style type="text/css">
+.blue {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	background: #0088cc;
+}
+
+</style>
+
 <?php
 include_once("login.html");
 
