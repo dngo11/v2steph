@@ -27,7 +27,6 @@ $password = "david"; //Change to whatever you want your password to be
 if(isset($_POST['submit'])){
 	if($_POST['password'] == $password){
         include_once("home.html");
-        echo "Welcome to Steph Habif's portfolio.";
         } else {
         echo "sorry the password were incorrect";
         }
@@ -39,7 +38,7 @@ if(isset($_POST['submit'])){
 		<form class="blue" method="post">
 		<input type="password" name="password" placeholder="password" /></br>
 		<input type='submit' name='submit' />
-	</form>
+		</form>
 	</div>
 
 	<?php
