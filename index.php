@@ -38,10 +38,9 @@ if(isset($_POST['submit'])){
 		<form class="blue" method="post">
 		<input type="password" name="password" placeholder="password" /></br>
 		<input type='submit' name='submit' />
-		</form>
 	</div>
-
-	<?php
+		</form><?php
+	
 }
 
 ?>
