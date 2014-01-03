@@ -30,6 +30,14 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
 /* ===================================*/
 
 /*CUSTOM*/
+.lowercase {
+	text-transform: lowercase;
+}
+
+.whitebg {
+	background: white;
+}
+
 .height325 {
 	height: 325px;
 }
@@ -166,10 +174,10 @@ z-index: 2;
 #main-nav li a{
 	color: #000;
 	font-size: 20px;
-font-family:"Open_Sans_L";
-margin-left: 10px;
-margin-right: 10px;
-text-decoration: none !important;
+	font-family:"Open_Sans_L";
+	margin-left: 0px;
+	margin-right: 0px;
+	text-decoration: none !important;
 }
 #main-nav li a:hover{
 	color: #fff;
@@ -177,7 +185,8 @@ text-decoration: none !important;
 }
 #main-nav li a.lighted{
 	color: #fff !important;
-	border-top: solid 4px #fff;
+	font-weight: bold;
+	/*border-top: solid 4px #fff;*/
 }
 
 .logo-wrap{
@@ -229,7 +238,7 @@ text-decoration: none !important;
 	text-shadow:none;
 	font-size: 14px;
 	font-family:"Open_Sans_B";
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 }
 .btn-renova-alt:hover{
 	border: solid 3px #fff !important;
