@@ -3,6 +3,18 @@
   	top: 50%;
   	left: 50%;
   	background: #0088cc;
+  	text-align: center;
+}
+
+.text {
+	text-align: center;
+	color: white;
+}
+
+.box {
+	top: 50%;
+	left: 50%;
+	background: #0088cc;
 }
 
 </style>
@@ -22,11 +34,15 @@ if(isset($_POST['submit'])){
 } else { //IF THE FORM WAS NOT SUBMITTED
 //SHOW FORM
 	?>
-	<h2>To access Steph Habif's portfolio, please enter the password.</h2>
-	<form class="blue" method="post">
-		Password: <input type="password" name="password" />
+	<div class="box">
+		<h2 class="text">To access Steph Habif's portfolio, please enter the password.</h2>
+		<form class="blue" method="post">
+		<input type="password" name="password" placeholder="password" /></br>
 		<input type='submit' name='submit' />
-	</form><?php
+	</form>
+	</div>
+
+	<?php
 }
 
 ?>
