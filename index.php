@@ -1,4 +1,8 @@
-<style type="text/css">
+<<html>
+<head>
+	<title>Steph Habif | Portfolio</title>
+
+	<style type="text/css">
 .blue {
   	top: 50%;
   	left: 50%;
@@ -18,6 +22,12 @@
 }
 
 </style>
+
+</head>
+<body>
+
+</body>
+</html>
 
 <?php
 include_once("login.html");
@@ -42,5 +52,7 @@ if(isset($_POST['submit'])){
 }
 
 ?>
+
+
 
 
