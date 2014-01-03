@@ -125,15 +125,15 @@ $("a.fancythumb").fancybox({
 //=======================
 
     //Triggering Navigation as Sticky when scrolled to second section:
-    $('.beneath-intro').waypoint(function (event, direction) {
-        if (direction === 'down') {
-            $('.navigation').addClass('sticky').slideDown();
-            $('#scroll').stop().animate({bottom: '-150px'}, 700);
-        } else {
-            $('#scroll').stop().animate({bottom: '0px'}, 700);
-            $('.navigation').slideUp().removeClass('sticky');
-        }
-    }, { offset: 160 });
+    // $('.beneath-intro').waypoint(function (event, direction) {
+    //     if (direction === 'down') {
+    //         $('.navigation').addClass('sticky').slideDown();
+    //         $('#scroll').stop().animate({bottom: '-150px'}, 700);
+    //     } else {
+    //         $('#scroll').stop().animate({bottom: '0px'}, 700);
+    //         $('.navigation').slideUp().removeClass('sticky');
+    //     }
+    // }, { offset: 160 });
 
 
 

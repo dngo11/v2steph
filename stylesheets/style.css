@@ -1480,6 +1480,11 @@ line-height:16px
 }
 
 @media (min-width: 979px) and (max-width: 1382px){
+	#strategist-end .row, #conference-end .row,#dschool-end .row,#researcher-end .row {display: table;}
+	#conference-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#researcher-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#strategist-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#dschool-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
 	body, html{
 		max-width: 1366px !important;
 		overflow-x: hidden !important;
@@ -1511,6 +1516,11 @@ line-height:16px
 }
 
 @media (min-width: 768px) and (max-width: 960px){
+	#strategist-end .row, #conference-end .row,#dschool-end .row,#researcher-end .row {display: table;}
+	#conference-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#researcher-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#strategist-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#dschool-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
   #badge{
     display: none;
   }
@@ -2287,3 +2297,11 @@ line-height:16px
 
 
 
+@media (min-width:1200px){
+	#strategist-end .row, #conference-end .row,#dschool-end .row,#researcher-end .row {display: table;}
+	#conference-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#researcher-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#strategist-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	#dschool-end [class*="span"] {display:table-cell;float:none;vertical-align: middle;}
+	img{max-width:500px;}
+}
