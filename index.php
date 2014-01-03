@@ -1,6 +1,5 @@
 <style type="text/css">
 .blue {
-	position: fixed;
   	top: 50%;
   	left: 50%;
   	background: #0088cc;
@@ -22,7 +21,9 @@ if(isset($_POST['submit'])){
         }
 } else { //IF THE FORM WAS NOT SUBMITTED
 //SHOW FORM
-	?><form class="blue" method="post">
+	?>
+	<h2>To access Steph Habif's portfolio, please enter the password.</h2>
+	<form class="blue" method="post">
 		Password: <input type="password" name="password" />
 		<input type='submit' name='submit' />
 	</form><?php
