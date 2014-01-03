@@ -1,30 +1,3 @@
-<html>
-<head>
-	<title>Steph Habif | Portfolio</title>
-
-	<style type="text/css">
-.blue {
-  	top: 50%;
-  	left: 50%;
-  	background: #0088cc;
-  	text-align: center;
-}
-
-.text {
-	text-align: center;
-	color: white;
-}
-
-.box {
-	top: 50%;
-	left: 50%;
-	background: #0088cc;
-}
-
-</style>
-
-</head>
-<body>
 <?php
 $password = "david"; //Change to whatever you want your password to be
 
