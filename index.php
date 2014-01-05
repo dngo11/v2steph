@@ -86,11 +86,12 @@ if(isset($_POST['submit'])){
 //SHOW FORM
 	?>
 
-	<div class="span6">
-		<h2 class="text">To access Steph Habif's portfolio, please enter the password.</h2>
+	<div class="span12">
+		<h2 class="text center">To access Steph Habif's portfolio, please enter the password.</h2>
+		</br></br>
 		<form class="blue" method="post">
-		<input type="password" name="password" placeholder="password" /></br>
-		<input type='submit' name='submit' />
+		<input class="center" type="password" name="password" placeholder="password" />
+		<input class="center" type='submit' name='submit' />
 		</form><?php
 	
 }
