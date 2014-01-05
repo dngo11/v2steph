@@ -49,8 +49,26 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
           transform: rotate(-10deg);
 }
 
+
+img .logo {
+ 	max-height: 300px;
+	max-width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+img.logo:hover {
+  width: 320px;
+  height: 320px;
+}
+
+
 /*CUSTOM*/
-input .blue {
+form input .blue {
 	background: #0088cc;
 }
 
