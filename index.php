@@ -92,7 +92,7 @@ if(isset($_POST['submit'])){
         		<section class="container">
         			<article class="span12">
         				<h1 class="main-heading"><span>Access Portfolio</span></h1>
-						<form class="blue" method="post">
+						<form class="center" method="post">
 						<input class="center" type="password" name="password" placeholder="password" />
 						<input class="center" type='submit' name='submit' />
 						</form><?php	
