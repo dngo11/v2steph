@@ -139,6 +139,7 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
+  background: #0088cc;
 }
 
 label,
