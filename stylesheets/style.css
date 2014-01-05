@@ -50,7 +50,7 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
 }
 
 
-img .logo {
+.logo {
  	max-height: 300px;
 	max-width: 300px;
  
@@ -61,7 +61,7 @@ img .logo {
           transition: all 1s ease;
 }
 
-img.logo:hover {
+.logo:hover {
   width: 320px;
   height: 320px;
 }
@@ -70,12 +70,6 @@ img.logo:hover {
 /*CUSTOM*/
 form input .blue {
 	background: #0088cc;
-}
-
-
-.logo {
-	max-height: 300px;
-	max-width: 300px;
 }
 
 
