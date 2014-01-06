@@ -112,7 +112,7 @@ if(isset($_POST['submit'])){
 		<div class="span12">
 			<div class="row-fluid">
         		<section class="container">
-        			<article class="center span6">
+        			<article class="center span3">
                         </br>
         				<h1 class="center FertigoPro-Italic"><span>Access Habif Portfolio</span></h1></br>
 						<form class="center" method="post">
@@ -121,6 +121,7 @@ if(isset($_POST['submit'])){
 						</form><?php	
 	}
 	?>
+                    </article>
 				</section>
 			</div>
 		</div>
