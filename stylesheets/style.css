@@ -37,6 +37,11 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
   color: #0088cc;
 }
 
+input[type=test] {
+	font-family: FertigoPro-Italic;
+	background: #0088cc;
+	color: white;
+}
 
 /*TILT*/
 .tilt {
