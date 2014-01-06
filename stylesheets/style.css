@@ -1123,7 +1123,7 @@ font-family:"FertigoPro-Italic" !important;
 
 input:focus, textarea:focus
 {
-    color:#fff !important;
+    color: #00AAFF !important;
     background: white !important;
 }
 
