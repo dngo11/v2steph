@@ -34,7 +34,7 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
   font-family: FertigoPro-Italic;
   font-weight: normal;
   font-style: normal;
-  color: #0088cc;
+  color: #00AAFF;
 }
 
 input[type=test] {
@@ -1091,7 +1091,7 @@ text-transform: uppercase;
 
 input
 {
-    background:none repeat scroll 0 0 #fff !important;
+    background:none repeat scroll 0 0 #C0C1C4 !important;
     box-shadow: none !important;
     border: none !important;
     border-bottom: solid 1px #000 !important;
