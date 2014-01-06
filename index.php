@@ -111,18 +111,16 @@ if(isset($_POST['submit'])){
 	<div class="wrapper">
 		<div class="span12">
 			<div class="row-fluid">
-        		<section class="container">
         			<article class="center span12">
                         </br>
         				<h1 class="center FertigoPro-Italic"><span>Access Habif Portfolio</span></h1></br>
 						<form class="center" method="post">
-						<input class="rounded center FertigoPro-Italic" type="password" name="password" placeholder="type in password here" />
+						<input class="FertigoPro-Italic" type="password" name="password" placeholder="type in password here" />
 						<input id="passwordsubmit" class="center blue FertigoPro-Italic" type='submit' name='submit' />
 						</form><?php	
 	}
 	?>
                     </article>
-				</section>
 			</div>
 		</div>
 	</div>
