@@ -66,6 +66,11 @@ input[type=test] {
 	max-width: 300px;
 }
 
+.vimeo {
+	height: 300px;
+	width: 300px;
+}
+
 
 /*CUSTOM*/
 form input .blue {
