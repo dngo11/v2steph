@@ -1094,7 +1094,8 @@ input
     background:none repeat scroll 0 0 #C0C1C4 !important;
     box-shadow: none !important;
     border: none !important;
-    border-bottom: solid 1px #000 !important;
+    /*border-bottom: solid 1px #000 !important;*/
+    border-bottom: none;
     border-radius:0!important;
     color:#0088cc;
 font-family:"FertigoPro-Italic" !important;
