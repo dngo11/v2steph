@@ -109,6 +109,7 @@ if(isset($_POST['submit'])){
 	?>
 
 	<div class="wrapper">
+    </br>
 <!-- 		<div class="span12">
 			<div class="row-fluid">
         			<article class="center span12">
