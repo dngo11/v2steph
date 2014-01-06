@@ -1097,13 +1097,10 @@ text-transform: uppercase;
 input
 {
     background:none repeat scroll 0 0 #C0C1C4 !important;
-    border: 1px solid #ccc;
+    border: 1px solid #00AAFF;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  -moz-box-shadow: 2px 2px 3px #666;
-  -webkit-box-shadow: 2px 2px 3px #666;
-  box-shadow: 2px 2px 3px #666;
   font-size: 20px;
   padding: 4px 7px;
   outline: 0;
@@ -1127,7 +1124,7 @@ font-family:"FertigoPro-Italic" !important;
 input:focus, textarea:focus
 {
     color:#fff !important;
-    background: #111 !important;
+    background: white !important;
 }
 
 textarea
