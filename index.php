@@ -10,7 +10,7 @@
 <meta name="author" content="David Ngo">
 <meta name="web_author" content="Designova">
 
-/**
+<!-- /**
  * @license
  * MyFonts Webfont Build ID 2700601, 2013-12-03T08:37:31-0500
  * 
@@ -29,11 +29,9 @@
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2700601
  * 
  * © 2013 MyFonts Inc
-*/
+*/ -->
 
--->
 <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
-
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 <link href="assets/css/extension.css" rel="stylesheet">
@@ -115,7 +113,7 @@ if(isset($_POST['submit'])){
 			<div class="row-fluid">
         		<section class="container">
         			<article class="span12">
-        				<h1 class="FertigoPro-Italic"><span>Access Portfolio</span></h1>
+        				<h1 class="center FertigoPro-Italic"><span>Access Portfolio</span></h1>
 						<form class="center" method="post">
 						<input class="center FertigoPro-Italic" type="password" name="password" placeholder="password" />
 						<input class="center blue FertigoPro-Italic" type='submit' name='submit' />
