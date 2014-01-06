@@ -45,7 +45,7 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
 input[type=test] {
 	font-family: FertigoPro-Italic;
 	background: #0088cc;
-	color: white;
+	color: black;
 }
 
 /*TILT*/
@@ -1096,7 +1096,7 @@ text-transform: uppercase;
 
 input
 {
-    background:none repeat scroll 0 0 #C0C1C4 !important;
+    background:none repeat scroll 0 0 #FFFFFF !important;
     border: 1px solid #00AAFF;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
