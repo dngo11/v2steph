@@ -29,6 +29,9 @@ Credits: Design, Coding and Development by Jean P Johnson at Designova
 /* CONTENTS: */
 /* ===================================*/
 
+#passwordsubmit {
+	visibility: hidden;
+}
 
 .FertigoPro-Italic { 
   font-family: FertigoPro-Italic;
