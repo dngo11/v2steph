@@ -10,6 +10,30 @@
 <meta name="author" content="David Ngo">
 <meta name="web_author" content="Designova">
 
+/**
+ * @license
+ * MyFonts Webfont Build ID 2700601, 2013-12-03T08:37:31-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Fertigo Pro Italic by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/fertigo-pro/italic/
+ * Copyright: Copyright (c) 2009 by Jos Buivenga. All rights reserved.
+ * Licensed pageviews: 500,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2700601
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+-->
+<link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
+
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 <link href="assets/css/extension.css" rel="stylesheet">
@@ -91,10 +115,10 @@ if(isset($_POST['submit'])){
 			<div class="row-fluid">
         		<section class="container">
         			<article class="span12">
-        				<h1 class="main-heading"><span>Access Portfolio</span></h1>
+        				<h1 class="FertigoPro-Italic"><span>Access Portfolio</span></h1>
 						<form class="center" method="post">
-						<input class="center" type="password" name="password" placeholder="password" />
-						<input class="center blue" type='submit' name='submit' />
+						<input class="center FertigoPro-Italic" type="password" name="password" placeholder="password" />
+						<input class="center blue FertigoPro-Italic" type='submit' name='submit' />
 						</form><?php	
 	}
 	?>
