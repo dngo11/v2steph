@@ -63,7 +63,7 @@ input[type=test] {
 
 .logo {
  	max-height: 300px;
-	max-width: 300px;
+	max-width: 100%;
 }
 
 .vimeo {
