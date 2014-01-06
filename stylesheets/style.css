@@ -61,14 +61,14 @@ input[type=test] {
 }
 
 
-.logo {
+.logo-pic {
  	max-height: 300px;
-	max-width: 100%;
+	max-width: 300px;
 }
 
 .vimeo {
 	height: 300px;
-	width: 300px;
+	width: 100%;
 }
 
 
