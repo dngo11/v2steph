@@ -109,20 +109,20 @@ if(isset($_POST['submit'])){
 	?>
 
 	<div class="wrapper">
-		<div class="span12">
+<!-- 		<div class="span12">
 			<div class="row-fluid">
         			<article class="center span12">
-                        </br>
+                        </br> -->
         				<h1 class="center FertigoPro-Italic"><span>Access Habif Portfolio</span></h1></br>
 						<form class="center" method="post">
-						<input class="FertigoPro-Italic" type="password" name="password" placeholder="type in password here" />
+						<input class="center FertigoPro-Italic" type="password" name="password" placeholder="type in password here" />
 						<input id="passwordsubmit" class="center blue FertigoPro-Italic" type='submit' name='submit' />
 						</form><?php	
 	}
 	?>
-                    </article>
+<!--                     </article>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	</body>
